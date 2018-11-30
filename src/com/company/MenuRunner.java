@@ -11,9 +11,9 @@ public class MenuRunner
         Drink icedTea = new Drink("Iced Tea", 1.50);
         Drink smoothie = new Drink("Smoothie", 5.50);
 
-        MenuItem trio1 = new MenuItem(reuben, waldorf, icedTea);
-        MenuItem trio2 = new MenuItem(bec, caesar, smoothie);
-        MenuItem trio3 = new MenuItem(bec, caesar, icedTea);
+        Trio trio1 = new Trio(reuben, waldorf, icedTea);
+        Trio trio2 = new Trio(bec, caesar, smoothie);
+        Trio trio3 = new Trio(bec, caesar, icedTea);
 
         System.out.println(trio1. getName() + " Price: " + trio1.getPrice());
         System.out.println(trio2. getName() + " Price: " + trio2.getPrice());
